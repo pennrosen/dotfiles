@@ -18,6 +18,12 @@
 
 source ~/dotfiles/zsh/plugins/fixls.zsh
 
+export NVM_DIR="/Users/prosen/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# 10ms for key sequences
+KEYTIMEOUT=1
+
 #Functions
 	# Loop a command and show the output in vim
 	loop() {

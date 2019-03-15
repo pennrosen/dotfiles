@@ -7,6 +7,8 @@
 	set dir=/tmp/
 	set relativenumber 
 	set number
+	set timeoutlen=0 ttimeoutlen=0
+	set noesckeys
 
 	autocmd Filetype html setlocal sw=2 expandtab
 	autocmd Filetype javascript setlocal sw=4 expandtab
