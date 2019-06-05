@@ -18,9 +18,6 @@
 
 source ~/dotfiles/zsh/plugins/fixls.zsh
 
-export NVM_DIR="/Users/prosen/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-
 # 10ms for key sequences
 KEYTIMEOUT=1
 
@@ -57,7 +54,8 @@ KEYTIMEOUT=1
 autoload -U compinit
 
 plugins=(
-	docker
+	docker 
+	nvm
 )
 
 for plugin ($plugins); do
@@ -66,6 +64,7 @@ done
 
 compinit
 
+source ~/dotfiles/zsh/plugins/oh-my-zsh/custom/plugins/zsh-nvm/zsh-nvm.plugin.zsh
 source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/history.zsh
 source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
 source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/completion.zsh
