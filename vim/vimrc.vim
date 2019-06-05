@@ -30,6 +30,7 @@
 	nnoremap K gg
 
 	map <tab> %
+	map <F6> :setlocal spell! spelllang=en_us<CR>
 
 	set backspace=indent,eol,start
 
