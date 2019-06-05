@@ -64,7 +64,7 @@ done
 
 compinit
 
-source ~/dotfiles/zsh/plugins/oh-my-zsh/custom/plugins/zsh-nvm/zsh-nvm.plugin.zsh
+source ~/dotfiles/zsh/plugins/zsh-nvm/zsh-nvm.plugin.zsh
 source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/history.zsh
 source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
 source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/completion.zsh
